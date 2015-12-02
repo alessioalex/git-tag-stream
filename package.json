@@ -1,0 +1,38 @@
+{
+  "name": "git-tag-stream",
+  "version": "1.0.0",
+  "description": "Shelling out to `git-tag` in a Node streamy way for listing tags.",
+  "main": "index.js",
+  "dependencies": {
+    "git-spawned-stream": "^0.1.1",
+    "split-transform-stream": "^1.0.0"
+  },
+  "devDependencies": {
+    "alessioalex-standard": "^1.1.0",
+    "husky": "^0.10.2",
+    "tape": "^4.2.2"
+  },
+  "scripts": {
+    "lint": "alessioalex-standard",
+    "test": "node test/test.js",
+    "precommit": "npm run lint && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alessioalex/git-tag-stream.git"
+  },
+  "keywords": [
+    "git",
+    "tag",
+    "tags",
+    "stream",
+    "git-tag",
+    "git-tags"
+  ],
+  "author": "Alexandru Vladutu <alexandru.vladutu@gmail.com> (http://careers.stackoverflow.com/alessioalex)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alessioalex/git-tag-stream/issues"
+  },
+  "homepage": "https://github.com/alessioalex/git-tag-stream#readme"
+}
